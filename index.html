@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Üye Kayıt Formu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Üye Kayıt Formu</h2>
+        <form action="https://formsubmit.co/email@adresiniz.com" method="POST">
+            <input type="hidden" name="_subject" value="Yeni Üye Kaydı">
+            <input type="hidden" name="_template" value="table">
+            <input type="text" name="ad" placeholder="Adınız" required>
+            <input type="text" name="soyad" placeholder="Soyadınız" required>
+            <input type="email" name="email" placeholder="E-posta" required>
+            <input type="tel" name="telefon" placeholder="Telefon">
+            <input type="hidden" name="_captcha" value="false">
+            <button type="submit">KAYDET</button>
+        </form>
+    </div>
+</body>
+</html>
